@@ -393,4 +393,4 @@ const on = ('Ready');
 console.log(on);
 
 
-client.login();
+client.login(process.env.TOKEN);
